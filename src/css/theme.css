@@ -1,0 +1,124 @@
+html{
+  margin:0;
+  padding:0;
+  background-color: #f2f2f2;
+}
+body {
+  font-family: arial;
+  /*border-bottom:5px solid gold;*/
+}
+
+h1 {
+  font-family: arial;
+  font-size: 40px;
+  color: #024A7C;
+  font-weight: bolder;
+  line-height:0.5;
+  text-align: left;
+}
+
+h2 {
+  font-family: arial;
+  color: darkred;
+  font-weight: bolder;
+  text-align: left;
+}
+
+
+form  {
+  font-family: arial;
+  font-size: 14px;
+  text-align:justify;
+  text-align: left;
+  line-height:2;
+}
+
+/*
+input[type=text]{
+  height:30px;
+  width: 150px;
+  margin: 8px 0;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=password]{
+  height:30px;
+  width: 150px;
+  margin: 8px 0;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  height:30px;
+  width: 150px;
+  background-color:lightgrey;
+  color: black;
+  margin: 8px 0;
+  border: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+*/
+input:focus {
+  background-color: #fff2cc;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ul {
+  columns: 2;
+  line-height:2;
+  background-color: #ccc;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+*/
+div[class=user]{
+  text-align: right;
+}
+
+div.container {
+    width: 100%;
+}
+
+.row > form {
+  width: 300px;
+  display: inline-block;
+}
+
+table#vehicle_search_result.dataTable tbody tr:hover {
+  background-color: #ffa;
+}
+
+table#parts_details_result.dataTable tbody tr:hover {
+  background-color: #ffa;
+}
+table#vendor.dataTable tbody tr:hover {
+  background-color: #ffa;
+}
+table#monthly_sales_summary.dataTable tbody tr:hover {
+  background-color: #ffa;
+}
+
+
+/*
+table#cost_break_result.dataTable {
+  width: 50%;
+}
+*/
